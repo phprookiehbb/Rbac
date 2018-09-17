@@ -1,0 +1,27 @@
+{
+    "name": "phprookiehbb/rbac",
+    "description": "一个tp5的RBAC库,基于tp5.0.21,使用composer来安装和更新你的项目对于RBAC的需求,包含了RBAC需要的数据表的数据迁移,能够很方便的开始开发。其他版本稍作修改也可使用。",
+    "keywords"   : ["tp5","rbac"],
+    "homepage" : "http://crasphter.cn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crasphb",
+            "email": "646054215@qq.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.4.0"
+      },
+      "require-dev": {
+            "php": ">=5.4.0",
+            "topthink/think-migration": "^1.0",        
+            "phprookiehbb/tree": ">=1.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "Crasphb\\": "src/"
+        }
+      }
+}
