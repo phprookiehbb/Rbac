@@ -32,6 +32,7 @@ class Auth extends Migrator{
         $table->addColumn('name','string', ['limit'=>80,'comment'=>'url地址'])
               ->addColumn('title','string',['limit'=>20,'comment'=>'名称'])
               ->addColumn('type','integer',['limit' => MysqlAdapter::INT_TINY,'default'=>1,'signed'=>false,'comment'=>'type'])
+              ->addColumn('css','string',['limit'=>20,'comment'=>'css图标'])
               ->addColumn('status','integer',['limit' => MysqlAdapter::INT_TINY,'default'=>1,'signed'=>false,'comment'=>'状态，1：显示，0：不显示'])
               ->addColumn('pid','integer',['limit'=>5,'signed'=>false,'comment'=>'父栏目ID'])
               ->addColumn('sort','integer',['limit' => MysqlAdapter::INT_TINY,'default'=>10,'signed'=>false,'comment'=>'排序字段'])

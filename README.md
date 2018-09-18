@@ -14,7 +14,7 @@ rbac支持composer安装 [Packagist](https://packagist.org/packages/phprookiehbb
 composer require phprookiehbb/rbac:dev-master
 ```
 
-### 配置
+### 配置 
 
 首先在config.php下配置好相应的数据库对应的参数：
 ```
